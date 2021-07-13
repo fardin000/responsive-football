@@ -19,20 +19,20 @@ main{}
 }
 .intro-half-one{
     width: 50%;
-    margin-top: 151px;
+    margin-top: 207px;
     margin-left: 156px;
     
 }
 .intro-half-one h1{
     color: white; 
     font-style: normal;
-    font-size: 54px;
+    font-size: 64px;
     line-height: 67px;
 }
 .intro-half-one button{
     background-color: #E02C6D;
     font-size: 15px;
-    margin-top: -8px;
+    margin-top: -9px;
     padding: 10px 15px;
 }
 .fa-arrow-right{
@@ -46,9 +46,9 @@ main{}
     width: 50%;
 }
 .intro-half-two img{
-    width: 557px;
-    height: 438px;
-    padding-top: 86px;
+    width: 549px;
+    height: 456px;
+    padding-top: 135px;
     padding-bottom: 86px;
-    padding-right: 207px;
+    padding-right: 148px;
 }
