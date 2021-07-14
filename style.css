@@ -167,3 +167,47 @@ main{
 }
 
 /* extra section 2 starts here */
+.strickers-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1400px;
+    height: 312px;
+    margin-top: 3em;
+    background-color:rgb(79, 141, 182);;
+}
+.strickers-one,.strickers-two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+}
+.strickers-one{
+    background-color: rgb(79, 141, 182);
+}
+.strickers-two{
+    background-color: rgb(78, 141, 182);
+    margin-left: 1em;
+}
+.strickers img, .strickers p{
+    display: inline;
+}
+.strickers-one img, .strickers-two img{
+    width: 250px;
+    height: 250px;
+}
+.strickers-one img:hover, 
+.strickers-two img:hover{
+    height:310px;
+    background: whitesmoke;
+    transition: 2s;
+    transition-timing-function;: ease-in-out;
+    
+}
+.strickers-one p, .strickers-two p{
+    margin-left: 25px;
+    margin-right: 20px;
+    color: white;
+}
