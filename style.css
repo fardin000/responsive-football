@@ -11,7 +11,7 @@ body{
 main{
     display: flex;
     flex-direction: column ;
-    align-items: center;
+    align-items: center; /*this property aligned the whole container*/
 }
 
 .intro-container{
@@ -63,7 +63,7 @@ main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 1050px;
-    /* height: 474px;  ( this caused the design to collapse )*/
+    /* height: 474px;  ( this caused the design to collapse, no need to declare this )*/
     margin: 70px 210px 50px 153px;
     /* margin-right: 210px; */
     /* margin-left: 153px; */
@@ -90,8 +90,77 @@ main{
 
 /* video section style here */
 .video-section{
+   width: 1440px;
+   height: 550px; 
+   background-color: #2D25A0;
+  
+}
+.video-section h1{
+    font-size: 3em;
+    font-weight: lighter;
+
+}
+
+.video-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    overflow: visible;
+    position: relative;
+    overflow-x: auto;
    
 }
-.video-content{
-
+.video-section h1 {
+    color: white;
+    padding-top: .7em;
+    margin-left: 1.5em;
+    
+}
+.each-video{
+    
+}
+.each-video p{
+    color: red;
+    font-size: 2em;
+    text-align: center;
+}
+.video-content img{
+    width: 400px;
+    height: 200px;
+    padding: 5px;
+    position: relative;
+    /* display: block; */
+    z-index: 1;
+    
+}
+.play-button-1 {
+    font-size: 60px; 
+    color: white;
+    z-index: 2; 
+    position: absolute;
+    bottom: .4em;
+    left: .3em;
+}
+.play-button-2 {
+    font-size: 60px; 
+    color: white;
+    z-index: 2; 
+    position: absolute;
+    bottom: 0.4em;
+    left: 7.1em;
+}
+.play-button-3 {
+    font-size: 60px; 
+    color: white;
+    z-index: 2; 
+    position: absolute;
+    bottom: .4em;
+    left: 14em;
+}
+.play-button-4 {
+    font-size: 60px; 
+    color: white;
+    z-index: 2; 
+    position: absolute;
+    bottom: .4em;
+    left: 21em;
 }
