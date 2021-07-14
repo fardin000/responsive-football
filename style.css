@@ -52,3 +52,34 @@ main{}
     padding-bottom: 86px;
     padding-right: 148px;
 }
+
+/* players image and text in grid system */
+
+.players-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1050px;
+    height: 474px;
+    margin-top: 70px;
+    margin-right: 210px;
+    margin-left: 180px;
+    
+    
+}
+.each-grid{
+    width: 330px;
+    height: 474px; 
+    border: 1px solid white;
+    box-shadow: -1px 2px 20px 8px rgba(0, 0, 0, 0.15);
+    margin-left: 30px;
+    margin-bottom: 27px;
+}
+.players-img-size{
+    width: 300px;
+    height: 256px;
+    margin: 15px;
+
+}
+.each-grid h2, .each-grid p{
+    margin-left: 20px;
+}
