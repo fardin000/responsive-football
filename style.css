@@ -88,7 +88,8 @@ main{
     margin-left: 20px;
 }
 
-/* video section style here */
+/* video section style starts here */
+
 .video-section{
    width: 1440px;
    height: 550px; 
@@ -164,3 +165,5 @@ main{
     bottom: .4em;
     left: 21em;
 }
+
+/* extra section 2 starts here */
